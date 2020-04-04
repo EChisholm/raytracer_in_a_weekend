@@ -46,6 +46,9 @@ class vec3{
                 << static_cast<int>(255.999 * e[1]) << ' '
                 << static_cast<int>(255.999 * e[2]) << '\n';
         }
+        public:
+            double e[3];
+};
 
         //vec3 Utility functions
         inline std::ostream& operator<<(std::ostream &out, const vec3 &v) {
@@ -87,10 +90,7 @@ class vec3{
                          u.e[2] * v.e[0] - u.e[0] * v.e[2],
                          u.e[0] * v.e[1] - u.e[1] * v.e[0]);
         }
-        
+    
         inline vec3 unit_vector(vec3 v) {
             return v/v.length();
         }
-    public:
-    double e[3];
-};
