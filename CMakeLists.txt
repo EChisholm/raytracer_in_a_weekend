@@ -10,12 +10,17 @@ set (CMAKE_CXX_STANDARD 11)
 
 #Source
 set ( COMMON_ALL
+    src/common/rtweekend.h
     src/common/ray.h
     src/common/vec3.h
+    
 )
 
 set ( SOURCE_ONE_WEEKEND
     ${COMMON_ALL}
+    src/weekend/hittable.h
+    src/weekend/hittable_list.h
+    src/weekend/sphere.h
     src/weekend/main.cc
 )
 
