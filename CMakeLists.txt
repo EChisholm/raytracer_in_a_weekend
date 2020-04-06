@@ -13,6 +13,7 @@ set ( COMMON_ALL
     src/common/rtweekend.h
     src/common/ray.h
     src/common/vec3.h
+    src/common/camera.h
     
 )
 
