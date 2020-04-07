@@ -19,6 +19,7 @@ set ( COMMON_ALL
 
 set ( SOURCE_ONE_WEEKEND
     ${COMMON_ALL}
+    src/weekend/material.h
     src/weekend/hittable.h
     src/weekend/hittable_list.h
     src/weekend/sphere.h
